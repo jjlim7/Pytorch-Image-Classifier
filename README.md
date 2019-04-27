@@ -130,11 +130,6 @@ for phase in ['train', 'validation']:
   # Print model loss and accuracy for each iteration
   print('{} loss: {:.4f}, acc: {:.4f}'.format(phase, epoch_loss, epoch_acc))
 ```
-</br>
-</br>
-</br>
-</br>
-</br>
 
 ### Model Evaluation
 After training for 20 epochs, the model's performance goes as high as *96% in accuracy*. Based on the plot of the model's training, the training accuracy is as high as its test accuracy. This shows that the model is neither overfitting nor underfitting and is able to generalize well to similar flower images.
@@ -164,11 +159,6 @@ print('Accuracy of the network on the test images: %d %%' % (
 # Accuracy of the network on the test images: 96%
 ```
 ![](model_training_plot.png)
-
-</br>
-</br>
-</br>
-</br>
 
 ### Inference for Classification
 <div style="text-align: justify">
